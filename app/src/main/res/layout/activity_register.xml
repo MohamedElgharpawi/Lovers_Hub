@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:background="@drawable/bkg"
+
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/RegisterTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Create a New Account "
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/tv_shape"
+        android:padding="30sp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        />
+    <LinearLayout
+        android:id="@+id/linear_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/RegisterTv"
+        android:orientation="vertical"
+
+
+        >
+
+        <EditText
+            android:id="@+id/Register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:textSize="35sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/name"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+
+
+
+            />
+
+        <EditText
+            android:id="@+id/Register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="35sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/mail"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:id="@+id/Register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textSize="35sp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/lock"
+            android:layout_marginStart="5sp"
+            android:layout_marginEnd="5sp"
+            android:singleLine="true"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            />
+
+    </LinearLayout>
+    <Button
+android:id="@+id/CreateAccount_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape2"
+        android:layout_gravity="center"
+        android:layout_marginTop="35sp"
+        android:textSize="30sp"
+        android:text="Sign Up"
+        android:padding="10dp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_below="@id/linear_lay"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+
+</RelativeLayout>
+</ScrollView>

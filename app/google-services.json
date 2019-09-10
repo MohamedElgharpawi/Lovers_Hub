@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "172646587720",
+    "firebase_url": "https://lovershub-464e4.firebaseio.com",
+    "project_id": "lovershub-464e4",
+    "storage_bucket": "lovershub-464e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172646587720:android:dd2781c870f5554d",
+        "android_client_info": {
+          "package_name": "com.example.lovers_hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172646587720-2l7l8783rkmf7nhb42ap8fb0a9ngb4hg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lovers_hub",
+            "certificate_hash": "31a7b4f019785500ca61164703d2eb8bb2cc5ab7"
+          }
+        },
+        {
+          "client_id": "172646587720-30tpvr1pb2c68b8t9ho8dsv1j06927d3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCevkpJGvJ7UETUVfXlPAiZ46AEpXkU-3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172646587720-30tpvr1pb2c68b8t9ho8dsv1j06927d3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
